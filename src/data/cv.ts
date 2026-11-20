@@ -148,6 +148,20 @@ export const cv = {
     ],
     projects: [
         {
+            name: "NBA Hub",
+            description:
+                "Aplicación web dedicada a la NBA que permite explorar los 30 equipos, consultar sus plantillas y acceder a información y estadísticas de jugadores. Incluye perfiles de jugadores y detalles de los equipos.",
+            technologies: ["React", "TanStack Start", "TypeScript", "Tailwind CSS"],
+            github: "https://donnie-nbahub.vercel.app/",
+        },
+        {
+            name: "Pokédex",
+            description:
+                "Aplicación web interactiva que permite explorar Pokémon, consultar sus características y visualizar información detallada de cada uno mediante datos obtenidos de la PokéAPI.",
+            technologies: ["React", "JavaScript", "CSS", "PokéAPI"],
+            github: "https://donnie-pokedex.vercel.app/",
+        },
+        {
             name: "Shawarmas",
             description:
                 "Proyecto de tienda de ropa con catálogo y pedidos, acceso para clientes y empleados y gestión de inventario. El repositorio reúne una app Java con MySQL, una versión web con PHP, CSS y JavaScript, y una implementación WPF.",
