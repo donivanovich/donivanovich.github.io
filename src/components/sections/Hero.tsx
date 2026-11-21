@@ -9,7 +9,7 @@ export function Hero() {
                 <Reveal>
                     <p className="hero-kicker">
                         <span className="status-dot" />
-                        ESTUDIANTE DE DESARROLLO · GETAFE, MADRID
+                        SOFTWARE DEVELOPER · GETAFE, MADRID
                     </p>
                     <h1>
                         Hola, soy

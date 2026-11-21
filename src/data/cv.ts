@@ -17,11 +17,11 @@ type Certification = {
 
 export const cv = {
     name: "Ivan Kosolovskyy Fetsyk",
-    role: "Desarrollador Full Stack · Estudiante de DAM / DAW",
+    role: "Desarrollador de Software · Estudiante de DAM / DAW",
     location: "Getafe, Madrid",
     email: "kosoivan12@gmail.com",
     summary:
-        "Estudiante de desarrollo de software con formación en Desarrollo de Aplicaciones Multiplataforma y actualmente cursando Desarrollo de Aplicaciones Web. He realizado prácticas desarrollando interfaces web con React, TypeScript y Tailwind CSS, creando componentes reutilizables y aplicaciones responsive.",
+        "Desarrollador de software enfocado en Inteligencia Artificial Generativa (GenAI), con interés en modelos de lenguaje (LLMs), herramientas de IA y desarrollo asistido por inteligencia artificial. Cuento con formación en Desarrollo de Aplicaciones Multiplataforma y actualmente curso Desarrollo de Aplicaciones Web. Tengo experiencia desarrollando interfaces web con React, TypeScript y Tailwind CSS, creando componentes reutilizables y aplicaciones responsive.",
     introduction:
         "Me considero una persona organizada, paciente, proactiva y atenta al detalle. Disfruto aprendiendo nuevas tecnologías, herramientas e idiomas, y quiero seguir creciendo en desarrollo web y ampliar mis conocimientos en cloud computing, datos y blockchain.",
     interests: ["Blockchain", "Big Data", "Cloud Computing"],
@@ -101,7 +101,7 @@ export const cv = {
         },
         {
             category: "Datos e inteligencia artificial",
-            items: ["Machine Learning", "Aprendizaje profundo"],
+            items: ["Antigravity", "Claude", "Gemini", "DeepSeek", "Perplexity", "Ollama", "GitHub Copilot", "Cursor", "LLMs", "Prompt Engineering", "AI Agents"],
         },
     ],
     certifications: [
@@ -151,14 +151,14 @@ export const cv = {
             name: "NBA Hub",
             description:
                 "Aplicación web dedicada a la NBA que permite explorar los 30 equipos, consultar sus plantillas y acceder a información y estadísticas de jugadores. Incluye perfiles de jugadores y detalles de los equipos.",
-            technologies: ["React", "TanStack Start", "TypeScript", "Tailwind CSS"],
+            technologies: ["React", "TanStack Start", "TypeScript", "Tailwind CSS", "Prompt Engineering"],
             github: "https://donnie-nbahub.vercel.app/",
         },
         {
             name: "Pokédex",
             description:
                 "Aplicación web interactiva que permite explorar Pokémon, consultar sus características y visualizar información detallada de cada uno mediante datos obtenidos de la PokéAPI.",
-            technologies: ["React", "JavaScript", "CSS", "PokéAPI"],
+            technologies: ["React", "Prompt Engineering", "JavaScript", "CSS", "PokéAPI"],
             github: "https://donnie-pokedex.vercel.app/",
         },
         {
