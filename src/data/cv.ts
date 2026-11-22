@@ -166,7 +166,7 @@ export const cv = {
             description:
                 "Proyecto de tienda de ropa con catálogo y pedidos, acceso para clientes y empleados y gestión de inventario. El repositorio reúne una app Java con MySQL, una versión web con PHP, CSS y JavaScript, y una implementación WPF.",
             technologies: ["Java", "MySQL", "PHP", "CSS", "JavaScript", "WPF"],
-            github: "https://github.com/donivanovich/Shawarmas",
+            github: "https://controversial-allocation-burn-assist.trycloudflare.com/",
         },
     ] as Project[],
 } as const;
