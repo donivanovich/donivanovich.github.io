@@ -2,7 +2,7 @@ type Project = {
     name: string;
     description: string;
     technologies: string[];
-    github: string;
+    url: string;
     demo?: string;
     image?: string;
 };
@@ -152,21 +152,21 @@ export const cv = {
             description:
                 "Aplicación web dedicada a la NBA que permite explorar los 30 equipos, consultar sus plantillas y acceder a información y estadísticas de jugadores. Incluye perfiles de jugadores y detalles de los equipos.",
             technologies: ["React", "TanStack Start", "TypeScript", "Tailwind CSS", "Prompt Engineering"],
-            github: "https://donnie-nbahub.vercel.app/",
+            url: "https://nbahub.donivanovich.dev/",
         },
         {
             name: "Pokédex",
             description:
                 "Aplicación web interactiva que permite explorar Pokémon, consultar sus características y visualizar información detallada de cada uno mediante datos obtenidos de la PokéAPI.",
             technologies: ["React", "Prompt Engineering", "JavaScript", "CSS", "PokéAPI"],
-            github: "https://donnie-pokedex.vercel.app/",
+            url: "https://pokedex.donivanovich.dev/",
         },
         {
             name: "Shawarmas",
             description:
                 "Proyecto de tienda de ropa con catálogo y pedidos, acceso para clientes y empleados y gestión de inventario. El repositorio reúne una app Java con MySQL, una versión web con PHP, CSS y JavaScript, y una implementación WPF.",
             technologies: ["Java", "MySQL", "PHP", "CSS", "JavaScript", "WPF"],
-            github: "https://controversial-allocation-burn-assist.trycloudflare.com/",
+            url: "https://shawarmas.donivanovich.dev/",
         },
     ] as Project[],
 } as const;

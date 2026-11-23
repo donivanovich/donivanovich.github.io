@@ -21,7 +21,7 @@ export function Projects() {
                                 <p>{project.description}</p>
                                 <div className="tag-list">{project.technologies.map((technology) => <span className="tag" key={technology}>{technology}</span>)}</div>
                                 <div className="project-links">
-                                    <a href={project.github} target="_blank" rel="noreferrer">Ver proyecto <ArrowUpRight size={16} /></a>
+                                    <a href={project.url} target="_blank" rel="noreferrer">Ver proyecto <ArrowUpRight size={16} /></a>
                                     {project.demo && <a href={project.demo} target="_blank" rel="noreferrer">Ver demo <ArrowUpRight size={16} /></a>}
                                 </div>
                             </article>
