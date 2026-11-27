@@ -148,6 +148,13 @@ export const cv = {
     ],
     projects: [
         {
+            name: "MetaStudio",
+            description:
+                "Aplicación web para descargar audio MP3 desde YouTube, YouTube Music y playlists con edición precisa de metadatos ID3v2.3 y carátulas. Permite contrastar fuentes como MusicBrainz, Deezer e iTunes, previsualizar pistas y organizar etiquetas antes de exportar.",
+            technologies: ["React", "Vite", "Tailwind CSS", "yt-dlp", "FFmpeg"],
+            url: "https://metastudio.donivanovich.dev/",
+        },
+        {
             name: "NBA Hub",
             description:
                 "Aplicación web dedicada a la NBA que permite explorar los 30 equipos, consultar sus plantillas y acceder a información y estadísticas de jugadores. Incluye perfiles de jugadores y detalles de los equipos.",
